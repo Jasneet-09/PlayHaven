@@ -1,0 +1,55 @@
+body{
+    background-color: #153448;
+}
+.player{
+    margin: 20px;
+}
+
+img{
+    padding: 10px;
+    height: 8rem;
+}
+.card{
+    background-color: #EEF7FF;
+    /* box-shadow: 0 4px 6px rgba(0,0,0,0.1); */
+    border-radius: 0.5rem 0 0.5rem 0;
+}
+.card:hover{
+    background-color: rgb(218, 234, 248);
+    box-shadow: 0 10px 15px rgba(0,0,0,0.5);
+    transform: scale(1.05); 
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+h1 {
+    font-size: 35px;
+    font-weight: 600;
+    color: #F1EEDC;
+    text-align: center;
+    margin: 0 0 20px;
+    padding: 10px;
+    border-radius: 8px;
+}
+.card-text {
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: #153448; 
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.col:hover {
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+.row{
+    margin: 1rem;
+}
+.col{
+    margin: 1rem;
+}
